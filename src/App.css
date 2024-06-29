@@ -1,0 +1,12 @@
+html, body, #root {
+  height: 100%;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #282c34; /* Adjust as necessary */
+  color: white;
+}

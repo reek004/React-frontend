@@ -1,0 +1,29 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+  
+  .logo {
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 60, 255);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #ddd;
+  }
+  
